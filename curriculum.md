@@ -69,3 +69,7 @@
 
     估計天數:6天  
     優先性:5
+
+----------
+###Burn Down Chart###
+![](http://i.imgur.com/GVHDYmw.png)
