@@ -73,3 +73,7 @@
 ----------
 ###Burn Down Chart###
 ![](http://i.imgur.com/GVHDYmw.png)
+
+----------
+###Demo###
+http://embed.plnkr.co/6TFtlBQk1dXFUslWZg5k/preview
