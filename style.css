@@ -1,0 +1,60 @@
+/* Styles go here */
+
+table
+{
+    width: 100%;
+
+}
+table,th,td
+{
+    border: 1px solid black;
+}
+.color
+{
+    background-color: lightgray;
+}
+.color2
+{
+    background-color: white;
+}
+#heading
+{
+    background-color: #FFFFBB;
+    color: #880000;
+}
+tr:hover
+{
+
+    background-color:darkblue;
+    color: white;
+    font-weight: bold;
+}
+#images img
+{
+
+    margin-top: 10px;
+}
+#img1
+{
+    width: 33.4%;
+}
+#img2
+{
+    width: 66%;
+    height: 255px;
+}
+#table1
+{
+    margin-top: 10px;
+}
+label
+{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+button
+{
+    margin-top: 5px;
+    padding: 5px;
+}
