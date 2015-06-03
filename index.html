@@ -1,63 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
+  
+
 <head>
-<title>Angular JS Table</title>
-<style>
-table, th , td {
-  border: 1px solid grey;
-  border-collapse: collapse;
-  padding: 5px;
-}
-table tr:nth-child(odd) {
-  background-color: #f2f2f2;
-}
-table tr:nth-child(even) {
-  background-color: #ffffff;
-}
-</style>
+    <title></title>
+    <script src="script.js" ></script>
+    <script src="http://code.angularjs.org/1.1.5/angular.min.js" ></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<h2>AngularJS Sample Application</h2>
-<div ng-app="" ng-controller="studentController">
-<table border="0">
-<tr><td>Enter first name:</td><td><input type="text" ng-model="student.firstName"></td></tr>
-<tr><td>Enter last name: </td><td><input type="text" ng-model="student.lastName"></td></tr>
-<tr><td>Name: </td><td>{{student.fullName()}}</td></tr>
-<tr><td>Subject:</td><td>
-<table>
-   <tr>
-      <th>Name</th>
-      <th>Marks</th>
-   </tr>
-   <tr ng-repeat="subject in student.subjects">
-      <td>{{ subject.name }}</td>
-      <td>{{ subject.marks }}</td>
-   </tr>
-</table>
-</td></tr>
-</table>
+<div>
+   <h1> 訂單登錄系統</h1>
+    <label>搜尋:</label>
+<input type="search" ng-model="search" placeholder="Enter to Search">
+    </div>
+<div id="table1" ng-controller="table">
+    <table  cellpadding="0" border="0" cellspacing="0"  >
+        <tr id="heading">
+            <th>產品名稱:</th>
+            <th>客戶:</th>
+            <th>數量:</th>
+        </tr>
+        <tr class="color2" ng-repeat="product in products | filter:search | filter:new_search">
+            <td>{{product.Rollno}}  </td>
+            <td>{{product.Name}}</td>
+            <td>{{product.Uni}} </td>
+        </tr>
+    </table>
+    
+<button ng-click="remove($index)" >刪除一筆</button>
+<button ng-click="remove2($index)" >刪除全部</button>
+    
+    <div >
+        <label>產品名稱:</label>
+        <input type="text" ng-model="new_rollno"> <br>
+        <label>客戶:</label>
+        <input type="text" ng-model="new_name"><br>
+        <label>數量:</label>
+        <input type="number" ng-model="new_uni"><br>
+        <button ng-click="save()">增加</button>
+    </div>
+    <div style="float: right; margin-right: 300px;margin-top: -200px;">
+
 </div>
-<script>
-function studentController($scope) {
-   $scope.student = {
-      firstName: "Mahesh",
-      lastName: "Parashar",
-      fees:500,
-      subjects:[
-         {name:'Physics',marks:70},
-         {name:'Chemistry',marks:80},
-         {name:'Math',marks:65},
-		 {name:'English',marks:75},
-		 {name:'Hindi',marks:67}
-      ],
-      fullName: function() {
-         var studentObject;
-         studentObject = $scope.student;
-         return studentObject.firstName + " " + studentObject.lastName;
-      }
-   };
-}
-</script>
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js"></script>
+</div>
 </body>
 </html>
