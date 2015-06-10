@@ -77,7 +77,8 @@ https://nkfust8374.leankit.com/Boards/View/198070365#workflow-view
 
 ----------
 ###Burn Down Chart###
-![](http://i.imgur.com/GVHDYmw.png)
+![](http://i.imgur.com/uJzxT3W.png)
+![](http://i.imgur.com/MDTRSkA.png)
 
 ----------
 ###Demo###
