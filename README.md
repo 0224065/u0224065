@@ -84,8 +84,8 @@
 
 ----------
 ###BigBoard###
-https://nkfust8374.leankit.com/Boards/View/198070365#workflow-view
-![](http://i.imgur.com/TxXKjDr.png)
+https://trello.com/b/WOO7NFsN/group12
+![](http://i.imgur.com/6pj384r.png)
 
 ----------
 ###Burn Down Chart###
