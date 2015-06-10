@@ -71,6 +71,11 @@
     優先性:5
 
 ----------
+###BigBoard###
+https://nkfust8374.leankit.com/Boards/View/198070365#workflow-view
+
+
+----------
 ###Burn Down Chart###
 ![](http://i.imgur.com/GVHDYmw.png)
 
