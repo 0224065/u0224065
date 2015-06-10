@@ -73,7 +73,7 @@
 ----------
 ###BigBoard###
 https://nkfust8374.leankit.com/Boards/View/198070365#workflow-view
-
+![](http://i.imgur.com/TxXKjDr.png)
 
 ----------
 ###Burn Down Chart###
