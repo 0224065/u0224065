@@ -85,7 +85,7 @@
 ----------
 ###BigBoard###
 https://trello.com/b/WOO7NFsN/group12
-![](http://i.imgur.com/6pj384r.png)
+![](http://i.imgur.com/JHlXade.png)
 
 ----------
 ###Burn Down Chart###
